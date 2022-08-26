@@ -1,6 +1,7 @@
 import React from "react";
 import { useState} from 'react'
 
+
 // Takes terminating props and passes up state data.
 function Contact({ reRender, handleDelete, contact, id, showContact }) {
 
@@ -39,21 +40,25 @@ function Contact({ reRender, handleDelete, contact, id, showContact }) {
 
 // Displays individual object data, attached buttons with appropriate on-click function calls.
  return (
- 
-    <tr>
-      <td>
+    <div>
+      <article>
+      
+    
+      
+            <section className="column"style={{
+             height: "100%", maxHeight: "0px", width: "100%", paddingBottom: "-20px", fontSize: "20px", marginRight: "400px"
+            }}>
         {contact.name}
-      </td>
-      <td>
-        <button style={{ background: 'transparent', border: 'none' }} onClick={((e) => showContact(e, contact))}>🔍</button>
-      </td>
-      <td>
-        <button style={{ background: 'transparent', border: 'none' }} onClick={((e) => saveContact(e, contact))}>💾</button></td>
-      <td>
-        <button style={{ background: 'transparent', border: 'none' }} onClick={deleteContact}>X</button>
-      </td>
-    </tr>
- 
+            </section>
+            <section className="column is-full" style={{paddingBottom: "-20px"}}>
+            <button onClick={((e) => showContact(e, contact))}>🔍</button>
+            <button onClick={((e) => saveContact(e, contact))}>💾</button>
+            <button style={{fontSize: "19px"}} onClick={deleteContact}>X</button>
+            
+            </section>
+        
+      </article> 
+    </div>
   );
 }
 

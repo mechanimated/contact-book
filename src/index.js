@@ -7,6 +7,7 @@ import NewContactForm from "./components/NewContactForm";
 import Home from './components/Home'
 import ContactContainer from "./components/ContactContainer";
 import FavoriteContactContainer from "./components/FavoriteContactContainer"
+import 'bulma/css/bulma.min.css';
 
 // Renders DOM, routes links.
 ReactDOM.render(

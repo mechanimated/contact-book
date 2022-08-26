@@ -6,6 +6,7 @@ function Search({search}) {
   return (
     <form>
       <input
+        style={{marginLeft: "740px"}}
         type="text"
         placeholder="Search Contacts"
         onChange={(e) => search(e.target.value)}

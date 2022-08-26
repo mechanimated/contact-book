@@ -41,7 +41,7 @@ function NewContactForm() {
 
 // Displays new contact form and calls necessary functions, links back to home.
   return (
-    <div>
+    <div className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%",  marginTop: "-40px", alignItems:'center'}}>
       <form onSubmit={handleSubmit}>
         <div>
           <input onChange={handleChange} value={form.name} 

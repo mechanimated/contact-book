@@ -13,7 +13,7 @@ function FavoriteContactList({ faveContacts, handleFaveDelete, reRender }) {
 
 // Passes down props, maps and displays pulled data from on-clicks in child.
   return (
-    <div>
+    <div className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%",  marginTop: "-40px", alignItems:'center'}}>
         <div>
           <ul>
             <li><h3>{details.name}</h3></li>

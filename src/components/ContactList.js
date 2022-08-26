@@ -15,15 +15,27 @@ function ContactList({ reRender, handleDelete, contacts }) {
 // Passes down props, maps and displays pulled data from on-clicks in child.
   return (
     <div>
-      <div>
+
+      
+      <article className="box" style={{
+            marginLeft: "646px", marginRight:"580px", width:"18%",  
+            marginTop: "-45px", alignItems:'center', maxHeight: ""
+            }}>
+        <section style={{ overflowY: "auto", 
+            flexDirection: "column", height: "100%", maxHeight: "400px" }}>
         <ul>
         <li><h3>{details.name}</h3></li>
         <li><h5>{`Notes: `}</h5>{details.description}</li>
         <li><h5>{`Phone Number: `}</h5>{details.number}</li>
         </ul>
-        </div>
-      
-    <table>
+        </section>
+        </article>
+
+        
+        
+    <table className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%", overflowY:"auto",
+     marginTop: "-40px", alignItems:'center', maxHeight:"130px"}}>
+
       <tbody>
         <tr>
           <th>
