@@ -1,0 +1,335 @@
+{
+  "favorites": [],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "bestie",
+      "description": "mom calls her the 'favorite child' and it lowkey hurts",
+      "number": 575857758
+    },
+    {
+      "id": 2,
+      "name": "drinking buddy",
+      "description": "at this point i think i remember maybe 25% of the time we've spent together",
+      "number": 575857758
+    },
+    {
+      "id": 3,
+      "name": "MLM hun",
+      "description": "heyyy hun!! i know we havent talked in 4 years but how would YOU like to make 6k working from home???",
+      "number": 575857758
+    },
+    {
+      "id": 4,
+      "name": "mom",
+      "description": "please im scared theyre vaping in here pick me up",
+      "number": 575857758
+    },
+    {
+      "id": 5,
+      "name": "dad",
+      "description": "hey there champ...lets 'lay down' some 'real rap' about school, as you kids say",
+      "number": 575857758
+    },
+    {
+      "id": 6,
+      "name": "wine aunt",
+      "description": "mom told me to tell you to lay off the sherry this thanksgiving",
+      "number": 575857758
+    },
+    {
+      "id": 7,
+      "name": "that one uncle",
+      "description": "probably for the best that his prison tattoo is so old its illegible",
+      "number": 575857777
+    },
+    {
+      "id": 8,
+      "name": "my bby <3<3<3",
+      "description": "always gets that extra medium fry for me even if i say im not hungry and thats why we are getting married",
+      "number": 575857777
+    },
+    {
+      "id": 9,
+      "name": "tinder hookup (regrettable)",
+      "description": "i shouldnt have let myself be fooled by the cute dog in the pic",
+      "number": 575857777
+    },
+    {
+      "id": 10,
+      "name": "tinder hookup (good one)",
+      "description": "didnt even try to murder me ONCE! 10/10",
+      "number": 575857777
+    },
+    {
+      "id": 11,
+      "name": "debt collections",
+      "description": "maybe if i just keep ignoring them theyll give up?",
+      "number": 575857777
+    },
+    {
+      "id": 12,
+      "name": "gymbro",
+      "description": "hey bro i saw your tiktok, have you been eating refined sugars bro?? bro, your macros!!!",
+      "number": 575857777
+    },
+    {
+      "id": 13,
+      "name": "IRS",
+      "description": "ah fuck i shouldnt have ignored those collections calls",
+      "number": 575857777
+    },
+    {
+      "id": 14,
+      "name": "grandma",
+      "description": "oh honey, i just saw the funniest little video yesterday! i mailed it to you, did you get it yet? it took so long to print out all the pictures...",
+      "number": 575857777
+    },
+    {
+      "id": 15,
+      "name": "grandpa",
+      "description": "...yep.",
+      "number": 575857777
+    },
+    {
+      "id": 16,
+      "name": "broker",
+      "description": "who am i kidding i have like $12 in investments",
+      "number": 575857777
+    },
+    {
+      "id": 17,
+      "name": "ex",
+      "description": "oh, youre getting married? thats great! no im not crying hahahaha",
+      "number": 575857777
+    },
+    {
+      "id": 18,
+      "name": "boss",
+      "description": "i know i approved your vacation 4 months in advance but someone called out and i dont feel like coming in at 8 tomorrow soooo",
+      "number": 575857777
+    },
+    {
+      "id": 19,
+      "name": "guy who always wants u to cover his shift",
+      "description": "hey i know ur supposed to be on vacation rn but i have this thing, anyway can u cover me?",
+      "number": 575857777
+    },
+    {
+      "id": 20,
+      "name": "?????",
+      "description": "who the fuck is this",
+      "number": 575857777
+    },
+    {
+      "id": 21,
+      "name": "friend with truck",
+      "description": "hey man how are you? how the wife? oh- oh she- i'm so sorry. but uhhh, any chance you're free this weekend...?",
+      "number": 575857777
+    },
+    {
+      "id": 22,
+      "name": "local bar",
+      "description": "im gonna choose to not think about the ramifications of having this number memorized",
+      "number": 575857777
+    },
+    {
+      "id": 23,
+      "name": "chinese place",
+      "description": "yeah, the usual. no i...i only need one fork",
+      "number": 575857777
+    },
+    {
+      "id": 24,
+      "name": "onlyfans foot guy",
+      "description": "sometimes you do what you gotta do to pay rent",
+      "number": 575857777
+    },
+    {
+      "id": 25,
+      "name": "911",
+      "description": "i fell on it, i swear. please just send help",
+      "number": 575857777
+    },
+    {
+      "id": 26,
+      "name": "babysitter",
+      "description": "i will give you any amount of money to take these kids for the weekend",
+      "number": 575857777
+    },
+    {
+      "id": 27,
+      "name": "opthamologist",
+      "description": "i wish there was a good reason why we are on first name terms but the truth is i am very lonely",
+      "number": 575857777
+    },
+    {
+      "id": 28,
+      "name": "blessing on the mount holy new methodist unitarian church",
+      "description": "i need an old priest and a young priest",
+      "number": 575857777
+    },
+    {
+      "id": 29,
+      "name": "taco bell",
+      "description": "its that part of the night when i desire nothing more than a crunchwrap supreme",
+      "number": 575857777
+    },
+    {
+      "id": 30,
+      "name": "taxi",
+      "description": "if only there was some way i could make you come get me without ever having to speak to you",
+      "number": 575857777
+    },
+    {
+      "id": 31,
+      "name": "Edward Zander",
+      "description": "i hold the very razr of reality in my hands. with this, i will cut down god",
+      "number": 575857777
+    },
+    {
+      "id": 32,
+      "name": "Ivan Seidenberg",
+      "description": "i asked if you could hear me now, and you turned away. now, it is i who cannot hear your pleas for mercy",
+      "number": 575857777
+    },
+    {
+      "id": 33,
+      "name": "Bernard Ebbers",
+      "description": "just as worldcom belongs to verizon, you belong to me. you continue to live only at my whim",
+      "number": 575857777
+    },
+    {
+      "id": 34,
+      "name": "Jerry Jones",
+      "description": "i love football, shilling phones, and filling my texas-stadium-shaped hot tub with fresh, scarlet blood",
+      "number": 575857777
+    },
+    {
+      "id": 35,
+      "name": "Roger Gurnani",
+      "description": "accept integration or be swept aside by the tide of fate. that dark bell tolls for thee",
+      "number": 575857777
+    },
+    {
+      "id": 36,
+      "name": "Ed Whitacre",
+      "description": "we are the hyrda, one out of many. join us or perish",
+      "number": 575857777
+    },
+    {
+      "id": 37,
+      "name": "Stan Sigman",
+      "description": "cut off one head, and two more emerge. is the futility bitter on your tongue?",
+      "number": 575857777
+    },
+    {
+      "id": 38,
+      "name": "Victoria Goldsmith",
+      "description": "jill? is that you? you came back...oh jill, now you can finally join us in paradise",
+      "number": 575857777
+    },
+    {
+      "id": 39,
+      "name": "Kris Rinne",
+      "description": "do not fear. i am here to guide you into the collective. do not struggle, child. you will only make it hurt more",
+      "number": 575857777
+    },
+    {
+      "id": 40,
+      "name": "Jon Maron",
+      "description": "i have focus grouped and means tested this battle in every possible configuration. there is no outcome where you survive",
+      "number": 575857777
+    },
+    {
+      "id": 41,
+      "name": "Gary Forsee",
+      "description": "you cant get rid of me that easily. you just wait, youll see. youll all see!",
+      "number": 575857777
+    },
+    {
+      "id": 42,
+      "name": "Barry West",
+      "description": "i will open the eyes of the world to the fourth G. i will bring us into the FUTURE!",
+      "number": 575857777
+    },
+    {
+      "id": 43,
+      "name": "Tomoyo Nonaka",
+      "description": "you cannot stop progress. it is the pinnacle of foolishness to try. accept it, or be trampled 'neath my hooves",
+      "number": 575857777
+    },
+    {
+      "id": 44,
+      "name": "Will Ferrell",
+      "description": "wh- whats going on? why do i feel so...who am i? what have you done to me?!",
+      "number": 575857777
+    },
+    {
+      "id": 45,
+      "name": "Ricky Bobby",
+      "description": "ahh...nature ascendant. the festering truth always comes to light, doesnt it? he is dead, and only i am real now.",
+      "number": 575857777
+    },
+    {
+      "id": 46,
+      "name": "Sue Swenson",
+      "description": "i brought a holy gift into this world, and you called it a cage. it doesnt matter, though. the precipice has crumbled",
+      "number": 575857777
+    },
+    {
+      "id": 47,
+      "name": "Robert Dotson",
+      "description": "those who will not come willingly will be dragged, kicking and screaming, into the future",
+      "number": 575857777
+    },
+    {
+      "id": 48,
+      "name": "Neville Ray",
+      "description": "i am destined for greatness. you will not stand in the path of my ascension to divinity",
+      "number": 575857777
+    },
+    {
+      "id": 49,
+      "name": "Lance Massey",
+      "description": "i will sing you into the cradle of hell. can you hear it? the fifth resonance?",
+      "number": 575857777
+    },
+    {
+      "id": 50,
+      "name": "Catherine Zeta Jones",
+      "description": "i get paid a cool 10 milli a year to shill these fucking phones, and you will not take that from me",
+      "number": 575857777
+    },
+    {
+      "id": 51,
+      "name": "Annabel Yao",
+      "description": "i will not let you upset father. your trespasses against our great work end now",
+      "number": 575857777
+    },
+    {
+      "id": 52,
+      "name": "Ren Ping",
+      "description": "there cannot be peace until all are unified under our house. accept the future, fool",
+      "number": 575857777
+    },
+    {
+      "id": 53,
+      "name": "Meng Wanzhou",
+      "description": "did you know that nothing happens when you die? are you ready to face that oblivion, coward?",
+      "number": 575857777
+    },
+    {
+      "id": 54,
+      "name": "Yao Ling",
+      "description": "you dare? fear not, my heart. i will not let this interloper sully your masterpiece",
+      "number": 575857777
+    },
+    {
+      "id": 55,
+      "name": "Ren Zhengfei",
+      "description": "you would take all that i have built with my own sweat and blood? no. no, i dont think so",
+      "number": 575857777
+    }
+  ]
+}
