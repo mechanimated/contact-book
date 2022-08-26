@@ -1,9 +1,9 @@
 import React from "react";
 
+// End of branch, displays single objects data in list of favorites.
 function FavoriteContact({ showContact, faveContact, handleFaveDelete, id, reRender }) {
 
-
-
+// Permanently deletes data by id of clicked element.
   function deleteFaveContact() {
     fetch(`http://localhost:3000/favorites/${id}`, {
       method: 'DELETE'
@@ -14,6 +14,7 @@ function FavoriteContact({ showContact, faveContact, handleFaveDelete, id, reRen
       .catch(err => console.log(err))
   }
 
+// Displays individual object data, attached buttons with appropriate on-click function calls.
   return (
     <tr>
       <td>
@@ -28,6 +29,5 @@ function FavoriteContact({ showContact, faveContact, handleFaveDelete, id, reRen
     </tr>
   );
 }
-
 
 export default FavoriteContact;

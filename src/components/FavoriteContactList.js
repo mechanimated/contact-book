@@ -1,7 +1,8 @@
 import React from "react";
-import FavoriteContact from "./FavoriteContact";
 import { useState } from 'react'
+import FavoriteContact from "./FavoriteContact";
 
+// Passes down individual object data to contact component.
 function FavoriteContactList({ faveContacts, handleFaveDelete, reRender }) {
 
   const [details, setDetails] = useState([])
@@ -10,14 +11,15 @@ function FavoriteContactList({ faveContacts, handleFaveDelete, reRender }) {
   
   }
 
+// Passes down props, maps and displays pulled data from on-clicks in child.
   return (
     <div>
         <div>
-        <ul>
-        <li><h3>{details.name}</h3></li>
-        <li><h5>{`Notes: `}</h5>{details.description}</li>
-        <li><h5>{`Phone Number: `}</h5>{details.number}</li>
-        </ul>
+          <ul>
+            <li><h3>{details.name}</h3></li>
+            <li><h5>{`Notes: `}</h5>{details.description}</li>
+            <li><h5>{`Phone Number: `}</h5>{details.number}</li>
+          </ul>
         </div>
     <table>
       <tbody>

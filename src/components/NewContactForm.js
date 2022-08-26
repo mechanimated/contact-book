@@ -2,9 +2,10 @@ import React from "react";
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
 
-function NewContactForm({reRender, handleDelete, id}) {
+// Function for posting new data to db.
+function NewContactForm() {
 
-
+// Empty use state object in format used in db.
   const [form, setForm] = useState({
     id: "",
     name: "",
@@ -12,9 +13,7 @@ function NewContactForm({reRender, handleDelete, id}) {
     number: ""
   })
 
-
-
-
+// Listens for change, duplicates object and populates with entered data.
   const handleChange = (event) => {
     setForm({
       ...form,
@@ -22,8 +21,7 @@ function NewContactForm({reRender, handleDelete, id}) {
     })
   }
 
-
-
+// On click, actually posts data to db and then resets form fields.
   function handleSubmit(event) {
     event.preventDefault()
     fetch(`http://localhost:3000/contacts`,{
@@ -41,6 +39,7 @@ function NewContactForm({reRender, handleDelete, id}) {
     }))
   }
 
+// Displays new contact form and calls necessary functions, links back to home.
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -51,19 +50,16 @@ function NewContactForm({reRender, handleDelete, id}) {
               type="text" name="description" placeholder="Description" />
           <input onChange={handleChange} value={form.number} 
               type="tel" maxlength="10" name="number" placeholder="Number" />
-
         </div>
         <button type="submit">
           Add Contact
         </button>
       </form>
-
-    
-    <nav>
-  <button>
-  <Link to='/'>Home</Link>
-</button>
-</nav>
+      <nav>
+        <button>
+          <Link to='/'>Home</Link>
+        </button>
+      </nav>
     </div>
   );
 }
