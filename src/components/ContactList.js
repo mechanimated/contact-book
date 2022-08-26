@@ -16,8 +16,8 @@ function ContactList({contacts, handleDelete, saveContact, reRender}) {
 
       
       <article className="box" style={{
-            marginLeft: "860px", marginRight:"790px", width:"18%",  
-            marginTop: "-40px", alignItems:'center', maxHeight: ""
+            marginLeft: "646px", marginRight:"580px", width:"18%",  
+            marginTop: "-45px", alignItems:'center', maxHeight: ""
             }}>
         <section style={{ overflowY: "auto", 
             flexDirection: "column", height: "100%", maxHeight: "400px" }}>
@@ -31,8 +31,8 @@ function ContactList({contacts, handleDelete, saveContact, reRender}) {
 
         
         
-    <table className="box" style={{marginLeft: "860px", marginRight:"790px", width:"18%", overflowY:"auto",
-     marginTop: "-40px", alignItems:'center', maxHeight:"300px"}}>
+    <table className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%", overflowY:"auto",
+     marginTop: "-40px", alignItems:'center', maxHeight:"130px"}}>
       <tbody>
         <tr>
           <th>

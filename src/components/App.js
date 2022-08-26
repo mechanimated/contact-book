@@ -2,11 +2,10 @@ import React from "react";
 import {Link, Outlet} from 'react-router-dom';
 
 
-
 function App() {
   return (
     <div style={{ 
-        backgroundImage: 'url(https://i.postimg.cc/HnWR83TX/background.png)',
+        backgroundImage: 'url(https://i.postimg.cc/rFXzzb64/2022-08-26-0mn-Kleki.png)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -18,13 +17,13 @@ function App() {
       <div className="column"></div>
       <div className="column"></div>
       <div className="column"></div>
-      <div className="box" style={{marginLeft: "860px", marginRight:"790px", width:"18%",  marginTop: "40px", alignItems:'center'}}>
+      <div className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%",  marginTop: "10px", alignItems:'center'}}>
         <h2>All The People You Never Call Cuz You're A Bad Friend</h2>
       </div>
       
 
      
-      <nav className="box" style={{marginLeft: "860px", marginRight:"0px", width:"18%",  marginTop: "-10px", alignItems:'center', }}>
+      <nav className="box" style={{marginLeft: "646px", marginRight:"0px", width:"18%",  marginTop: "-22px", alignItems:'center', }}>
         <ul>
           <button>
             <Link to='/Home'>Home</Link>

@@ -9,7 +9,7 @@ function Search({search}) {
 
     <form>
       <input
-        style={{marginLeft: "1030px"}}
+        style={{marginLeft: "740px"}}
         type="text"
         placeholder="Search Contacts"
         onChange={(e) => search(e.target.value)}

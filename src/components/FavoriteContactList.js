@@ -11,7 +11,7 @@ function FavoriteContactList({ faveContacts, handleFaveDelete, reRender }) {
   }
 
   return (
-    <div className="box" style={{marginLeft: "860px", marginRight:"790px", width:"18%",  marginTop: "-40px", alignItems:'center'}}>
+    <div className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%",  marginTop: "-40px", alignItems:'center'}}>
         <div>
         <ul>
         <li><h3>{details.name}</h3></li>
