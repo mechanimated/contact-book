@@ -1,5 +1,12 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "id": 1,
+      "name": "Sue Swenson",
+      "description": "i brought a holy gift into this world, and you called it a cage. it doesnt matter, though. the precipice has crumbled",
+      "number": 575857777
+    }
+  ],
   "contacts": [
     {
       "id": 1,
