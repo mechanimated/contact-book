@@ -5,14 +5,26 @@ import {Link, Outlet} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div style={{ 
+        backgroundImage: 'url(https://i.postimg.cc/HnWR83TX/background.png)',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        width: '100%',
+        height: '100vh'
+    }}>
       <div>
+      <div className="column"></div>
+      <div className="column"></div>
+      <div className="column"></div>
+      <div className="column"></div>
+      <div className="box" style={{marginLeft: "860px", marginRight:"790px", width:"18%",  marginTop: "40px", alignItems:'center'}}>
         <h2>All The People You Never Call Cuz You're A Bad Friend</h2>
       </div>
       
 
      
-      <nav>
+      <nav className="box" style={{marginLeft: "860px", marginRight:"0px", width:"18%",  marginTop: "-10px", alignItems:'center', }}>
         <ul>
           <button>
             <Link to='/Home'>Home</Link>
@@ -31,6 +43,7 @@ function App() {
       <Outlet />
   
       
+    </div>
     </div>
   );
 }

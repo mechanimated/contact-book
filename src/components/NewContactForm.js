@@ -42,7 +42,7 @@ function NewContactForm({reRender, handleDelete, id}) {
   }
 
   return (
-    <div>
+    <div className="box" style={{marginLeft: "860px", marginRight:"790px", width:"18%",  marginTop: "-40px", alignItems:'center'}}>
       <form onSubmit={handleSubmit}>
         <div>
           <input onChange={handleChange} value={form.name} 

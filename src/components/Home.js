@@ -2,6 +2,13 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div><h1>{'Home'}</h1></div>
+    <div style={{
+        
+        }}>
+        <h1>{'Home'}</h1>
+    
+      
+      </div>
+   
   )
 }
