@@ -2,6 +2,7 @@ import React from "react";
 import {Link, Outlet} from 'react-router-dom';
 
 
+// Link storage and permanent nav bar for clicking through pages.
 function App() {
   return (
     <div style={{ 
@@ -20,7 +21,7 @@ function App() {
       <div className="box" style={{marginLeft: "646px", marginRight:"790px", width:"18%",  marginTop: "10px", alignItems:'center'}}>
         <h2>All The People You Never Call Cuz You're A Bad Friend</h2>
       </div>
-      
+
 
      
       <nav className="box" style={{marginLeft: "646px", marginRight:"0px", width:"18%",  marginTop: "-22px", alignItems:'center', }}>
@@ -40,7 +41,6 @@ function App() {
         </ul>
       </nav>
       <Outlet />
-  
       
     </div>
     </div>
