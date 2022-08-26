@@ -19,7 +19,7 @@ The goal of our project is to emulate a contact book in a phone and have it oper
 
 /////////////// Component Tree ///////////////
 
-![app tree](https://user-images.githubusercontent.com/107143309/186957975-4010a8e6-4c10-4fbe-b53c-15b5f99f0140.png)
+![app tree](https://user-images.githubusercontent.com/107143309/186959628-41710579-59e1-4a9b-94c0-6afc021ff4ab.png)
 
 /////////////// Stretch Deliverables ///////////////
 
