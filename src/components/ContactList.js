@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import {useState} from "react"
+import "../index.css";
 
 
 function ContactList({contacts, handleDelete, saveContact, reRender}) {
@@ -20,20 +21,20 @@ function ContactList({contacts, handleDelete, saveContact, reRender}) {
         </ul>
         </div>
         
-    <table>
+    <table className="cinerousTable">
       <tbody>
         <tr>
           <th>
-            <h3>Contacts</h3>
+            Contacts
           </th>
           <th>
-            <h3>See More</h3>
+            See More
           </th>
           <th>
-            <h3>Add To Favorites</h3>
+           Add To Favorites
           </th>
           <th>
-            <h3>Remove Contact</h3>
+           Remove Contact
           </th>
         </tr>
         {contacts?.map((contact, buttcheeks) => {

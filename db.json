@@ -1,5 +1,24 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "id": 1,
+      "name": "bestie",
+      "description": "mom calls her the 'favorite child' and it lowkey hurts",
+      "number": 575857758
+    },
+    {
+      "id": 2,
+      "name": "bestie",
+      "description": "mom calls her the 'favorite child' and it lowkey hurts",
+      "number": 575857758
+    },
+    {
+      "id": 3,
+      "name": "bestie",
+      "description": "mom calls her the 'favorite child' and it lowkey hurts",
+      "number": 575857758
+    }
+  ],
   "contacts": [
     {
       "id": 1,
